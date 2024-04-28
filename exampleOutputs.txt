@@ -1,0 +1,304 @@
+for get teams:
+('Maccabi Haifa', '/maccabi-haifa/startseite/verein/1064/saison_id/2023', 'https://tmssl.akamaized.net/images/wappen/tiny/1064.png?lm=1684233681')
+('Maccabi Tel Aviv', '/maccabi-tel-aviv/startseite/verein/119/saison_id/2023', 'https://tmssl.akamaized.net/images/wappen/tiny/119.png?lm=1626682937')
+('Hapoel Beer Sheva', '/hapoel-beer-sheva/startseite/verein/2976/saison_id/2023', 'https://tmssl.akamaized.net/images/wappen/tiny/2976.png?lm=1613028225')
+('Maccabi Netanya', '/maccabi-netanya/startseite/verein/5223/saison_id/2023', 'https://tmssl.akamaized.net/images/wappen/tiny/5223.png?lm=1626703266')
+('Beitar Jerusalem', '/beitar-jerusalem/startseite/verein/3793/saison_id/2023', 'https://tmssl.akamaized.net/images/wappen/tiny/3793.png?lm=1578415471')
+('Hapoel Tel Aviv', '/hapoel-tel-aviv/startseite/verein/1017/saison_id/2023', 'https://tmssl.akamaized.net/images/wappen/tiny/1017.png?lm=1713480108')
+('FC Ashdod', '/fc-ashdod/startseite/verein/6105/saison_id/2023', 'https://tmssl.akamaized.net/images/wappen/tiny/6105.png?lm=1423260293')
+('Maccabi Petah Tikva', '/maccabi-petah-tikva/startseite/verein/3785/saison_id/2023', 'https://tmssl.akamaized.net/images/wappen/tiny/3785.png?lm=1423260379')
+('Ihud Bnei Sakhnin', '/ihud-bnei-sachnin/startseite/verein/4769/saison_id/2023', 'https://tmssl.akamaized.net/images/wappen/tiny/4769.png?lm=1423260464')
+('Hapoel Haifa', '/hapoel-haifa/startseite/verein/810/saison_id/2023', 'https://tmssl.akamaized.net/images/wappen/tiny/810.png?lm=1408745643')
+('Hapoel Jerusalem', '/hapoel-jerusalem/startseite/verein/43119/saison_id/2023', 'https://tmssl.akamaized.net/images/wappen/tiny/43119.png?lm=1629212675')
+('Hapoel Hadera', '/hapoel-hadera/startseite/verein/51931/saison_id/2023', 'https://tmssl.akamaized.net/images/wappen/tiny/51931.png?lm=1455345876')
+('Maccabi Bnei Reineh', '/maccabi-bnei-reineh/startseite/verein/70178/saison_id/2023', 'https://tmssl.akamaized.net/images/wappen/tiny/70178.png?lm=1624973616')
+('Hapoel Petah Tikva', '/hapoel-petah-tikva/startseite/verein/262/saison_id/2023', 'https://tmssl.akamaized.net/images/wappen/tiny/262.png?lm=1645709182')
+
+for get players:
+Player Name: Orlando Mosquera
+Player Number: 22
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/402979-1701334902.png?lm=1
+Birth Date: Dec 25, 1994
+Age at Club: 29
+Nationality: Panama
+Profile Reference: /orlando-mosquera/profil/spieler/402979
+Position: Goalkeeper
+
+Player Name: Daniel Tenenbaum
+Player Number: 19
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/345085-1653328230.png?lm=1
+Birth Date: Apr 19, 1995
+Age at Club: 29
+Nationality: Brazil
+Profile Reference: /daniel-tenenbaum/profil/spieler/345085
+Position: Goalkeeper
+
+Player Name: Roi Mishpati
+Player Number: 90
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/200575-1701334878.png?lm=1
+Birth Date: Nov 23, 1992
+Age at Club: 31
+Nationality: Israel
+Profile Reference: /roi-mishpati/profil/spieler/200575
+Position: Goalkeeper
+
+Player Name: Tomer Alon
+Player Number: -
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/default.jpg?lm=1
+Birth Date: Sep 24, 2003
+Age at Club: 20
+Nationality: Israel
+Profile Reference: /tomer-alon/profil/spieler/930572
+Position: Goalkeeper
+
+Player Name: Or Yitzhak
+Player Number: 33
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/625036-1701334690.png?lm=1
+Birth Date: Jan 2, 2001
+Age at Club: 23
+Nationality: Israel
+Profile Reference: /or-yitzhak/profil/spieler/625036
+Position: Goalkeeper
+
+Player Name: Derrick Luckassen
+Player Number: 25
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/241457-1662378914.jpg?lm=1
+Birth Date: Jul 3, 1995
+Age at Club: 28
+Nationality: Netherlands
+Profile Reference: /derrick-luckassen/profil/spieler/241457
+Position: Centre-Back
+
+Player Name: Raz Shlomo
+Player Number: 13
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/396635-1688394114.jpg?lm=1
+Birth Date: Aug 13, 1999
+Age at Club: 24
+Nationality: Israel
+Profile Reference: /raz-shlomo/profil/spieler/396635
+Position: Centre-Back
+
+Player Name: Enric Saborit
+Player Number: 4
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/85372-1653328585.png?lm=1
+Birth Date: Apr 27, 1992
+Age at Club: 32
+Nationality: Spain
+Profile Reference: /enric-saborit/profil/spieler/85372
+Position: Centre-Back
+
+Player Name: Nir Bitton
+Player Number: 55
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/129788-1701334946.png?lm=1
+Birth Date: Oct 30, 1991
+Age at Club: 32
+Nationality: Israel
+Profile Reference: /nir-bitton/profil/spieler/129788
+Position: Centre-Back
+
+Player Name: Idan Nachmias
+Player Number: 5
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/408422-1653328251.png?lm=1
+Birth Date: Mar 17, 1997
+Age at Club: 27
+Nationality: Israel
+Profile Reference: /idan-nachmias/profil/spieler/408422
+Position: Centre-Back
+
+Player Name: Matan Baltaxa
+Player Number: 30
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/355395-1692967505.png?lm=1
+Birth Date: Sep 20, 1995
+Age at Club: 28
+Nationality: Israel
+Profile Reference: /matan-baltaxa/profil/spieler/355395
+Position: Centre-Back
+
+Player Name: Adir Kordova
+Player Number: 31
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/default.jpg?lm=1
+Birth Date: Jan 31, 2004
+Age at Club: 20
+Nationality: Israel
+Profile Reference: /adir-kordova/profil/spieler/967559
+Position: Centre-Back
+
+Player Name: Roy Revivo
+Player Number: 3
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/919538-1689142204.jpg?lm=1
+Birth Date: May 22, 2003
+Age at Club: 20
+Nationality: Israel
+Profile Reference: /roy-revivo/profil/spieler/919538
+Position: Left-Back
+
+Player Name: Ofir Davidzada
+Player Number: 27
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/140570-1653327659.png?lm=1
+Birth Date: May 5, 1991
+Age at Club: 32
+Nationality: Israel
+Profile Reference: /ofir-davidzada/profil/spieler/140570
+Position: Left-Back
+
+Player Name: Avishay Cohen
+Player Number: 2
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/323451-1701334993.png?lm=1
+Birth Date: Jun 19, 1995
+Age at Club: 28
+Nationality: Israel
+Profile Reference: /avishay-cohen/profil/spieler/323451
+Position: Right-Back
+
+Player Name: Eden Karzev
+Player Number: 72
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/396640-1695644420.png?lm=1
+Birth Date: Apr 11, 2000
+Age at Club: 24
+Nationality: Israel
+Profile Reference: /eden-karzev/profil/spieler/396640
+Position: Defensive Midfield
+
+Player Name: Joris van Overeem
+Player Number: 14
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/182582-1629451549.jpg?lm=1
+Birth Date: Jun 1, 1994
+Age at Club: 29
+Nationality: Netherlands
+Profile Reference: /joris-van-overeem/profil/spieler/182582
+Position: Defensive Midfield
+
+Player Name: Sheran Yeini
+Player Number: 21
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/58342-1653328643.png?lm=1
+Birth Date: Dec 8, 1986
+Age at Club: 37
+Nationality: Israel
+Profile Reference: /sheran-yeini/profil/spieler/58342
+Position: Defensive Midfield
+
+Player Name: Anar Ushmandi
+Player Number: -
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/default.jpg?lm=1
+Birth Date: Mar 4, 2003
+Age at Club: 21
+Nationality: Israel
+Profile Reference: /anar-ushmandi/profil/spieler/703415
+Position: Midfielder
+
+Player Name: Dor Peretz
+Player Number: 42
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/204987-1632393904.jpg?lm=1
+Birth Date: May 17, 1995
+Age at Club: 28
+Nationality: Israel
+Profile Reference: /dor-peretz/profil/spieler/204987
+Position: Central Midfield
+
+Player Name: Ido Shahar
+Player Number: 26
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/519506-1653328402.png?lm=1
+Birth Date: Aug 20, 2001
+Age at Club: 22
+Nationality: Israel
+Profile Reference: /ido-shahar/profil/spieler/519506
+Position: Central Midfield
+
+Player Name: Eyal Golasa
+Player Number: 23
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/111965-1653327774.png?lm=1
+Birth Date: Oct 7, 1991
+Age at Club: 32
+Nationality: Israel
+Profile Reference: /eyal-golasa/profil/spieler/111965
+Position: Central Midfield
+
+Player Name: Gabi Kanichowsky
+Player Number: 16
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/398258-1653399401.jpg?lm=1
+Birth Date: Aug 24, 1997
+Age at Club: 26
+Nationality: Israel
+Profile Reference: /gabi-kanichowsky/profil/spieler/398258
+Position: Attacking Midfield
+
+Player Name: Dan Biton
+Player Number: 10
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/399361-1653327519.png?lm=1
+Birth Date: Jul 20, 1995
+Age at Club: 28
+Nationality: Israel
+Profile Reference: /dan-biton/profil/spieler/399361
+Position: Attacking Midfield
+
+Player Name: Felício Milson
+Player Number: 17
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/589374-1644671613.png?lm=1
+Birth Date: Oct 12, 1999
+Age at Club: 24
+Nationality: Angola
+Profile Reference: /felicio-milson/profil/spieler/589374
+Position: Left Winger
+
+Player Name: Yonatan Cohen
+Player Number: 11
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/408026-1634196250.jpg?lm=1
+Birth Date: Jun 29, 1996
+Age at Club: 27
+Nationality: Israel
+Profile Reference: /yonatan-cohen/profil/spieler/408026
+Position: Left Winger
+
+Player Name: Henry Addo
+Player Number: 20
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/947166-1699981088.png?lm=1
+Birth Date: May 1, 2003
+Age at Club: 20
+Nationality: Ghana
+Profile Reference: /henry-addo/profil/spieler/947166
+Position: Left Winger
+
+Player Name: Osher Davida
+Player Number: 77
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/211847-1661267731.jpg?lm=1
+Birth Date: Feb 18, 2001
+Age at Club: 23
+Nationality: Israel
+Profile Reference: /osher-davida/profil/spieler/211847
+Position: Right Winger
+
+Player Name: Kiko Bondoso
+Player Number: 70
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/590302-1701335059.png?lm=1
+Birth Date: Nov 17, 1995
+Age at Club: 28
+Nationality: Portugal
+Profile Reference: /kiko-bondoso/profil/spieler/590302
+Position: Right Winger
+
+Player Name: Dor Turgeman
+Player Number: 9
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/703460-1653328713.png?lm=1
+Birth Date: Oct 24, 2003
+Age at Club: 20
+Nationality: Israel
+Profile Reference: /dor-turgeman/profil/spieler/703460
+Position: Centre-Forward
+
+Player Name: Eran Zahavi
+Player Number: 7
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/85093-1563266049.jpg?lm=1
+Birth Date: Jul 25, 1987
+Age at Club: 36
+Nationality: Israel
+Profile Reference: /eran-zahavi/profil/spieler/85093
+Position: Centre-Forward
+
+Player Name: Yonas Malede
+Player Number: 15
+Image Link: https://img.a.transfermarkt.technology/portrait/medium/211845-1705581765.jpg?lm=1
+Birth Date: Nov 14, 1999
+Age at Club: 24
+Nationality: Israel
+Profile Reference: /yonas-malede/profil/spieler/211845
+Position: Centre-Forward
