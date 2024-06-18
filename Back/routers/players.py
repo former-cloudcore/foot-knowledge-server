@@ -12,28 +12,27 @@ router = APIRouter(prefix="/players")
 
 @router.get("/search", response_model=List[PlayersSlimSchema])
 async def search_players(
-        name: str = '', nationality: str = '', session: Session = Depends(create_session)
-) -> List[PlayerSchema]:
-    return PlayerService(session).search_players(name=name, nationality=nationality)
+        name: str = '', search_from_middle: bool = False, session: Session = Depends(create_session)
+) -> List[PlayersSlimSchema]:
+    return await PlayerService(session).search_players(name=name, search_from_middle=search_from_middle)
+
 
 @router.get("/nationalities", response_model=List[str])
 async def get_nationalities(
         session: Session = Depends(create_session)
-) -> List[PlayerSchema]:
-    return PlayerService(session).get_nationalities()
+) -> List[str]:
+    return await PlayerService(session).get_nationalities()
 
-@router.get("/{player_id}", response_model=PlayerSchema)
+
+@router.get("/{player_id}", response_model=PlayersSlimSchema)
 async def get_player(
         player_id: int, session: Session = Depends(create_session)
-) -> PlayerSchema:
-    return PlayerService(session).get_player(player_id)
+) -> PlayersSlimSchema:
+    return await PlayerService(session).get_player(player_id)
 
 
-@router.get("/", response_model=List[PlayerSchema])
+@router.get("/", response_model=List[PlayersSlimSchema])
 async def get_players(
         session: Session = Depends(create_session)
-) -> List[PlayerSchema]:
-    return PlayerService(session).get_players()
-
-
-
+) -> List[PlayersSlimSchema]:
+    return await PlayerService(session).get_players()
