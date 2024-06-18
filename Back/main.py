@@ -10,7 +10,8 @@ from routers import (
     players,
     player_team,
     teams,
-    games
+    games,
+    scoreboard
 )
 
 
@@ -27,3 +28,4 @@ app.include_router(players.router)
 app.include_router(player_team.router)
 app.include_router(teams.router)
 app.include_router(games.router)
+app.include_router(scoreboard.router)
