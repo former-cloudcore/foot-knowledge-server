@@ -18,7 +18,7 @@ from routers import (
     player_team,
     teams,
     games,
-    scoreboard
+    scoreboard,
     specials
 )
 
