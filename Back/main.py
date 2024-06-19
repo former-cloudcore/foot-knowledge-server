@@ -18,6 +18,7 @@ from routers import (
     player_team,
     teams,
     games,
+    scoreboard
     specials
 )
 
@@ -48,6 +49,8 @@ app.include_router(leagues.router)
 app.include_router(players.router)
 app.include_router(player_team.router)
 app.include_router(teams.router)
+app.include_router(games.router)
+app.include_router(scoreboard.router)
 app.include_router(specials.router)
 app.include_router(games.router)
 
