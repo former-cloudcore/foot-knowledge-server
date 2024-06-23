@@ -3,3 +3,6 @@ HEADERS = {
 
 BASE_URL = 'https://www.transfermarkt.com'
 DB_PATH = '..\\db.db'
+
+TEAMS_LINKS_INFIX = '/startseite/wettbewerb/'
+CHAMPION_LINK_INFIX = '/erfolge/wettbewerb/'
