@@ -1,17 +1,11 @@
-from fastapi import FastAPI, Request
-from fastapi.responses import FileResponse
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 import pathlib
 import uvicorn
-templates = Jinja2Templates(directory="templates")
 
-
-from const import (
-    OPEN_API_DESCRIPTION,
-    OPEN_API_TITLE,
-)
 from routers import (
     leagues,
     players,
@@ -21,6 +15,13 @@ from routers import (
     scoreboard,
     specials
 )
+from const import (
+    OPEN_API_DESCRIPTION,
+    OPEN_API_TITLE,
+)
+from middleware.auth_middleware import AuthMiddleware  # Import the middleware
+
+templates = Jinja2Templates(directory="templates")
 
 app = FastAPI(
     title=OPEN_API_TITLE,
@@ -39,11 +40,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+app.add_middleware(AuthMiddleware)  # Add the authentication middleware
 
 @app.get("/favicon.ico")
 async def get_favicon():
     return FileResponse("static/favicon.ico")
-
 
 app.include_router(leagues.router)
 app.include_router(players.router)
@@ -55,9 +56,9 @@ app.include_router(specials.router)
 app.include_router(games.router)
 
 @app.get("/{full_path:path}")
-async def catch_all(request: Request, full_path: str):
+async def catch_all(request, full_path: str):
     print("full_path: "+full_path)
     return templates.TemplateResponse("index.html", {"request": request})
 
-if __name__=="__main__":
-    uvicorn.run("main:app",host='0.0.0.0', port=80, reload=True, workers=1)
+if __name__ == "__main__":
+    uvicorn.run("main:app", host='0.0.0.0', port=80, reload=True, workers=1)
