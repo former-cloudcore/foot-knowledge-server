@@ -30,8 +30,6 @@ app = FastAPI(
     swagger_ui_parameters={"defaultModelsExpandDepth": -1}
 )
 
-app.mount("/assets", StaticFiles(directory=pathlib.Path(__file__).parent / 'static'), name="static")
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=['*'],
@@ -41,6 +39,8 @@ app.add_middleware(
 )
 
 app.add_middleware(AuthMiddleware)  # Add the authentication middleware
+
+app.mount("/assets", StaticFiles(directory=pathlib.Path(__file__).parent / 'static'), name="static")
 
 @app.get("/favicon.ico")
 async def get_favicon():
