@@ -21,5 +21,18 @@ async def add_grid_score(
         score_row: InputScoreRowSchema,
         session: Session = Depends(create_session),
 ) -> List[ScoreRowSchema]:
-    print("ho")
     return await ScoreBoardService(session).add_score(score_row, "grid")
+
+@router.get("/connections", response_model=List[ScoreRowSchema])
+async def get_connections_scores(
+        session: Session = Depends(create_session),
+) -> List[ScoreRowSchema]:
+    return await ScoreBoardService(session).get_scoreboard_by_board("connections")
+
+
+@router.post("/connections", response_model=List[ScoreRowSchema])
+async def add_connections_score(
+        score_row: InputScoreRowSchema,
+        session: Session = Depends(create_session),
+) -> List[ScoreRowSchema]:
+    return await ScoreBoardService(session).add_score(score_row, "connections")
