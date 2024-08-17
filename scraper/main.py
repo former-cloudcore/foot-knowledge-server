@@ -6,7 +6,7 @@ import sqlite3
 from datetime import datetime
 from unidecode import unidecode
 
-RUN_LAST_YEAR_AGAIN = True
+RUN_LAST_YEAR_AGAIN = False
 FORCE_UPDATE = False
 
 sql_commands = {
@@ -538,8 +538,8 @@ start_time = datetime.now()
 # conn.commit()
 
 
-# update_squads()
 # add_league_winners_to_special()
+update_squads()
 update_special_team()
 # print(get_special_teams_for_trophy_winner(BASE_URL + "/uefa-champions-league/erfolge/pokalwettbewerb/CL",
 #                                           "uefa_champions_league_winner", 1))
