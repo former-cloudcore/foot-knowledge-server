@@ -61,4 +61,4 @@ async def catch_all(request, full_path: str):
     return templates.TemplateResponse("index.html", {"request": request})
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", host='0.0.0.0', port=80, reload=True, workers=1)
+    uvicorn.run("main:app", host='0.0.0.0', port=3000, reload=True, workers=1)
